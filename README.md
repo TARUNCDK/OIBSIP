@@ -3,7 +3,7 @@ This repository contains the completed projects for the Oasis Infobyte Web Devel
 
 ### Projects:
 
-Calculator [Link](https://taruncdk.github.io/OIBSIP/calculator/) (Brief description of project functionality)      
+Calculator [Link](https://taruncdk.github.io/OIBSIP/calculator/index.html) (Brief description of project functionality)      
 Project 2 [Link](https://taruncdk.github.io/OIBSIP/calculator/) (Brief description of project functionality)      
 Project 3 [Link](https://taruncdk.github.io/OIBSIP/calculator/) (Brief description of project functionality)      
 Project 4 [Link](https://taruncdk.github.io/OIBSIP/calculator/) (Brief description of project functionality)
