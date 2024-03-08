@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Martel:wght@200;300;400;600;700;800;900&family=Nothing+You+Could+Do&family=Permanent+Marker&family=Roboto+Slab:wght@100..900&display=swap');
+
+@font-face {
+    font-family: homeHead;
+    src: url(arizonia/Arizonia-Regular.ttf);
+}
+
+
+/* cole codes used 
+#2F3D7E & #FAEAEB --> background
+#172A3A --> text
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    overflow-x: hidden;
+}
+.bkg{
+    background-color: #2f3d7e8f;
+    background-attachment: fixed;
+    list-style: disc;
+
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    /* background: #fff; */
+}
+.home-page h1{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.home-page{
+    padding: 0;
+    margin: 0;
+    /* color: #fff; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.overlay h1{
+    font-size: 70px;
+    font-family: homeHead;
+    margin-top: 20px;
+}
+.overlay i{
+    margin-top: 30px;
+    font-size: 40px;
+}
+#bio{
+    background-color: #FAEAEB;
+}
+
+.img{
+    height: 100vh!important;
+    object-fit: cover;
+}
+#bio h1{
+    text-align: left;
+    font-size: 55px;
+    font-family: homeHead;
+    color: #172A3A;
+    /* margin-bottom: 12px; */
+}
+.line-style{
+    margin-top: 0;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 64, 129), rgba(0, 0, 0, 0));
+}
+#bio p{
+    text-align: left;
+    font-size: 20px;
+    font-family: Roboto Slab , Serif;
+    color: #172A3A;
+
+}
+.details{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head-table{
+    text-align: center;
+    font-size: 25px;
+    font-family: Roboto Slab , Serif;
+    background-color: #172A3A;
+    color:#FAEAEB;
+    font-weight: 600;
+
+}
+.tables{
+    height: 100vh;
+}
+table{
+    /* table-layout: fixed; */
+    word-wrap: break-word;
+    color:#FAEAEB;
+    height: 80vh;
+    /* width: 90vw; */
+    width: 85%;
+    margin: 30px;
+
+}
+table tbody th{
+    text-align: left;
+    padding-right: 10px;
+}
+table tr{
+    border-bottom: 1px solid rgb(243, 128, 128);
+    font-family: Roboto Slab , Serif;
+    font-weight: 600;
+    
+}
+
+table tr span{
+    color: rgb(255, 64, 129);
+    font-weight: bold;
+    font-size: 18px;
+}
+.achieve-h1{
+    font-family: Roboto Slab , Serif;
+    text-align: center;
+    color: #172A3A;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+    /* background-color: transparent; */
+}
+li{
+    width: 100%;
+    font-size: 20px;
+    font-family: Roboto Slab , Serif;
+    color: #172A3A;
+}
+.footer{
+    background-color: #172A3A;
+    color: #FAEAEB;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto Slab , Serif;
+    font-weight: 600;
+    padding-top: 12px;
+}
